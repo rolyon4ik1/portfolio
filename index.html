@@ -49,11 +49,11 @@ const cards = document.querySelectorAll('.n_1, .n_2, .n_3, .n_4');
 cards.forEach(card => {
     card.addEventListener('click', () => {
         if (card.classList.contains('n_1')) {
-            window.location.href = 'webc/a/index.html';
-        } else if (card.classList.contains('n_2')) {
             window.location.href = 'webc/b/index.html';
-        } else if (card.classList.contains('n_3')) {
+        } else if (card.classList.contains('n_2')) {
             window.location.href = 'webc/c/index.html';
+        } else if (card.classList.contains('n_3')) {
+            window.location.href = 'webc/a/index.html';
         } else if (card.classList.contains('n_4')) {
             window.location.href = 'webc/d/index.html';
         }
