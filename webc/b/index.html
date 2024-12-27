@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link rel="stylesheet" href="swiper/package/swiper-bundle.css"> -->
+         <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <div class="head_container">
+            <div class="logo">
+                <p>logo</p>
+            </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="settings">
+            <ul>
+                <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                <li><p>English</p></li>
+            </ul>
+        </div>
+        <div class="burger" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_text">
+            <p>"Live an experience <br>
+                unique in our events <br>
+                multitudinous"</p>
+        </div>
+        <div class="main_video_button">
+            <ul>
+                <li><p>watch video</p></li>
+                <li><img src="img/start_video.png" alt="start"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="booking">
+        <div class="point_one">
+            <ul>
+                <span><p>Date of entry</p></span>
+                <input type="date" name="Date" class="e_date">
+            </ul>
+        </div>
+        <div class="linie"></div>
+        <div class="point_two">
+            <ul>
+                <span><p>Date of departure</p></span>
+                <input type="date" name="Date" class="e_date">
+            </ul>
+        </div>
+        <div class="linie"></div>
+        <div class="point_three">
+            <ul>
+                <span><p>Rooms for</p></span>
+                <div class="select">
+                <select name="rooms" class="rooms_select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>                    
+                </select>
+                <p>people</p>
+            </div>
+            </ul>
+        </div>
+        <div class="booking_button">
+            <button><i class="fa fa-search" aria-hidden="true"></i></li>Book now</button>
+        </div>
+    </div>
+    <hr style="margin-top: 40px; margin-bottom: 40px;">
+    <div class="booking_details">
+        <h1 class="booking_p_h1">Enjoy with us!</h1>
+        <p class="booking_p_p">We carry out all kinds of events</p>
+        <div class="cards">
+            <div><img src="img/beach.jpg" alt="beach"></div>
+            <div>
+            <p style="color: #33A0A4; margin-top: 20px;">in <strong>Northeast Beach</strong></p>
+                <h1>Tomorrowland Beach</h1>
+                    <p style="margin-top: 30px; font-weight: 600; opacity: 0.6;">Brief description of the event that can occupy <br>
+                    up to 3 lines of text.</p>
+                <input type="date" name="Date" class="date-input"> <br>
+            <button>I'm interested in</button>
+            </div>
+        </div>
+        <div class="cards cards_c_rev">
+            <div><img src="img/disco.jpg" alt="beach"></div>
+            <div>
+            <p style="color: #33A0A4; margin-top: 20px;">in <strong>South Beach</strong></p>
+                <h1>World Tropical</h1>
+                    <p style="margin-top: 30px; font-weight: 600; opacity: 0.6;">Brief description of the event that can occupy <br>
+                    up to 3 lines of text.</p>
+                <input type="date" name="Date" class="date-input"> <br>
+            <button>I'm interested in</button>
+            </div>
+        </div>
+    </div>
+    <div class="experience">
+        <h1>A super experience to tell</h1>
+        <button>Book now</button>
+    </div>
+
+
+    <div class="rooms">
+        <div class="r_text">
+            <h1>Luxury rooms</h1>
+            <p>View our entire catalog of rooms</p>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="card_1 swiper-slide">
+                <img src="img/room_1.png" alt="room_1">
+                <h3>Wilderness Club at Big Cedar</h3>
+                <p>2 Bathrooms</p>
+                <h2 class="r_price">$816 <span style="font-size: 14px;">/3 night</span></h2>
+            </div>
+            <div class="card_1 swiper-slide">                
+                <img src="img/room_2.jpg" alt="room_2">
+                <h3>Wilderness Club at Big Cedar</h3>
+                <p>2 Bathrooms</p>
+                <h2 class="r_price">$2016 <span style="font-size: 14px;">/6 night</span></h2>
+            </div>
+            <div class="card_1 swiper-slide">              
+                <img src="img/room_3.jpg" alt="room_3">
+                <h3>Wilderness Club at Big Cedar</h3>
+                <p>2 Bathrooms</p>
+                <h2 class="r_price">$1024 <span style="font-size: 14px;">/8 night</span></h2>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer_description">
+            <h1>Logo</h1>
+            <p>Description of the hotel. Details that the <br>
+                make it special</p>
+                <p style="margin-top: 50px;">© Logo Hotel 2023. All rights reserved</p>
+        </div>
+        <div class="foonter_nav__container">
+        <nav class="footer_nav">
+            <ul>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+
+            <div class="footer_text">
+                <ul>
+                <p>Find us at:</p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </ul>
+            </div>
+        </div>
+
+
+        </nav>
+    </footer>
+    <!-- <script src="swiper/package/swiper-bundle.js"></script> -->
+    <script src="script.js"></script>
+    </body>
+</html>

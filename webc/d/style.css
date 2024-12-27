@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.presentation {
+    display: flex;
+    justify-content: center;
+}
+.presentation h1 {
+    font-size: 64px;
+    text-align: center;
+    padding: 40px;
+}
+.pd_t {
+    background-color: aquamarine;
+    padding: 5px;
+}
+.rev {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.rev_text {
+    width: 500px;
+}
+.rev_text p {
+    font-size: 32px;
+}
+.rd_t {
+    font-size: 48px;
+    background-color: aquamarine;
+    padding: 5px;
+}
+.rrd_t {
+    font-size: 42px;
+}
+.features_container {
+    display: flex;
+    justify-content: center;
+}
+.features {
+    margin-top: 150px;
+    width: 70%;
+    height: 150px;
+    border-radius: 60px;
+    background-color: rgb(58, 255, 189);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.features p {
+    color: white;
+    font-size: 24px;
+    background-color: rgb(0, 219, 146);
+    padding: 20px;
+    width: 90%;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgb(0, 219, 146);
+}
+.appearance {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.appearance p {
+    font-size: 48px;
+    width: 400px;
+    margin-top: 80px;
+}
+.appearance img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 100%;
+}
+.f_c {
+    background-color: rgb(255, 206, 58);
+}
+.f_c p{
+    background-color: rgb(219, 164, 0);
+    box-shadow: 0 0 40px rgb(219, 164, 0);
+}
+.f_c2 {
+    background-color: rgb(255, 101, 58);
+}
+.f_c2 p {
+    background-color: rgb(219, 62, 0);
+    box-shadow: 0 0 40px rgb(219, 62, 0);
+}
+.app_2 p {
+    width: 600px;
+    margin-top: 50px;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+footer h1{
+    width: auto;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 64px;
+}
+.cards_revers {
+    flex-direction: row-reverse;
+}
