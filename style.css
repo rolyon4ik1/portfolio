@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text {
+    display: grid;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 30px;
+    gap: 10px;
+}
+.text p {
+    font-size: 36px;
+}
+.pd_t {
+    margin-left: 60px;
+    width: 335px;
+}
+.pd_t p {
+    font-size: 30px;
+}
+.wd_t {
+    background-color: rgb(255, 75, 75);
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.text h1 {
+    font-size: 64px;
+}
+.slider {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.cards {
+    background-color: rgb(255, 75, 75);
+    position: relative;
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 2;
+}
+.cards img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.cards p {
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+.cards h1 {
+    color: white;
+    margin-left: 40px;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.n_1, .n_2, .n_3{
+    position: relative;
+    z-index: 1;
+}
+.pre_text {
+    margin-top: 10px;
+    padding: 20px;
+    padding-left: 40px;
+}
