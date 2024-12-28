@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+    .background{
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    .main_information {
+        margin-right: 100px;
+    }
+    .main_information p {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .title h1 {
+        font-size: 24px;
+    }
+}
