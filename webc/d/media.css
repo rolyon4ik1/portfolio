@@ -1,0 +1,42 @@
+@media (max-width: 800px) {
+    .appearance img {
+        width: 80%;
+    }
+    footer h1 {
+        font-size: 36px;
+    }
+    .presentation h1 {
+        font-size: 48px;
+    }
+    .rev_text p {
+        font-size: 24px;
+        text-align: center;
+    }
+    .rrd_t {
+        white-space: nowrap;
+        font-size: 36px;
+    }
+}
+@media (max-width: 500px) {
+    .rd_t {
+        font-size: 4vw;
+    }
+    .rrd_t {
+        font-size: 4vw;
+    }
+    .rev_text p {
+        font-size: 4vw;
+        line-height: 40px;
+        padding: 10px;
+    }
+    .appearance p {
+        font-size: 4vw;
+        width: 100%;
+    }
+    footer h1 {
+        font-size: 4vw;
+    }
+    .h1_f{
+        font-size: 2vw;
+    }
+}
