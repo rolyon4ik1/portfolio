@@ -69,11 +69,12 @@ body {
 .main__container {
     display: flex;
     justify-content: center;
-    height: 580px;
-}
-.main_information {
-    background: #293332;
+    height: auto;
     width: 100%;
+    background: #293332;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 600px auto;
 }
 .main_information h1 {
     color: white;
@@ -81,12 +82,19 @@ body {
     font-weight: 400;
     margin-left: 60px;
 }
-.main_information p {
-    color: white;
+.main_information {
     width: 500px;
+    margin: 0 auto;
+}
+.main_information p {
+    width: 100%;
+    color: white;
     font-size: 20px;
     margin-left: 60px;
     margin-top: 30px;
+}
+.main_text {
+    margin-right: 100px;
 }
 .main_information h4 {
     color: white;
@@ -96,20 +104,18 @@ body {
     margin-left: 60px;
 }
 .form {
-    background: #293332;
-    width: 100%;
     position: relative;
+    background: #293332;
 }
 .form input {
     background-color: white;
     color: gray;
     border: none;
-    height: 50px;
-    width: 98%;
-    padding-left: 2%;
     margin-bottom: 20px;
+    text-align: left;
     font-size: 16px;
     outline: none;
+    padding: 10px 150px 10px 10px;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
 }
@@ -119,11 +125,7 @@ body {
 .form textarea {
     resize: none;
     margin-bottom: 20px;
-    width: 98%;
-    padding-left: 2%;
-    padding-top: 2%;
-    height: 50px;
-    padding-bottom: 70px;
+    padding: 10px 190px 50px 10px;
     outline: none;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
