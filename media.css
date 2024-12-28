@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    .text {
+        margin-left: 0;
+    }
+    .text h1 {
+        font-size: 48px;
+    }
+    .pd_t {
+        margin-left: 10px;
+    }
+}
