@@ -1,11 +1,25 @@
 @media (max-width: 500px) {
     .text {
         margin-left: 0;
+        padding: 15px;
     }
     .text h1 {
         font-size: 48px;
     }
     .pd_t {
         margin-left: 10px;
+    }
+    .pd_t p {
+        font-size: 24px;
+    }
+    .pre_text {
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .pre_text h1 {
+        font-size: 24px;
+    }
+    .cards {
+        width: 350px;
     }
 }
