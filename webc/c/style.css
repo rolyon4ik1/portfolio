@@ -83,11 +83,9 @@ body {
     margin-left: 60px;
 }
 .main_information {
-    width: 500px;
-    margin: 0 auto;
+    width: 800px;
 }
 .main_information p {
-    width: 100%;
     color: white;
     font-size: 20px;
     margin-left: 60px;
